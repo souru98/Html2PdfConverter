@@ -1,0 +1,33 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "post"
+      ],
+      "route": "pdf"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "pdfTemplate",
+      "type": "blob",
+      "path": "templates/template.json",
+      "connection": "",
+      "direction": "in"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "msg",
+      "queueName": "outqueue",
+      "connection": "MyStorageConnection"
+  }
+  ]
+}

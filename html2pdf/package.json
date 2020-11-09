@@ -1,0 +1,29 @@
+{
+  "name": "html2pdf",
+  "version": "0.1.0",
+  "description": "The worlds most simpliest website to PDF converter, based on express and puppeteer.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-forever": "node server-forever.js"
+  },
+  "engines": {
+    "node": "9.4.0"
+  },
+    "keywords": [
+    "chromeless",
+    "pdf",
+    "converter",
+    "express",
+    "html",
+    "html2pdf"
+  ],
+  "author": "sourabh anant kulkarni",
+  "license": "MIT",
+   "dependencies": {
+    "express": "^4.15.2",
+    "express-async-handler": "^1.0.3",
+    "forever": "^0.15.3",
+    "puppeteer": "^1.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "htmlfunction",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "html-pdf": "^2.2.0",
+    "pdfmake": "^0.1.68"
+  },
+  "devDependencies": {}
+}
