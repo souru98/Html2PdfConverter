@@ -7,7 +7,7 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "pdfmake": "^0.1.68"
   },
   "devDependencies": {}
